@@ -1,0 +1,16 @@
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\hello.exe
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\hello.deps.json
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\hello.runtimeconfig.json
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\hello.runtimeconfig.dev.json
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\hello.dll
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\ref\hello.dll
+C:\Users\05357384045\Documents\Aula10-08\hello\bin\Debug\net5.0\hello.pdb
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.csproj.AssemblyReference.cache
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.AssemblyInfoInputs.cache
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.AssemblyInfo.cs
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.csproj.CoreCompileInputs.cache
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.dll
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\ref\hello.dll
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.pdb
+C:\Users\05357384045\Documents\Aula10-08\hello\obj\Debug\net5.0\hello.genruntimeconfig.cache
