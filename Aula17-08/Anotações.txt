@@ -1,0 +1,56 @@
+vai receber um array de double e imprimir no console a média/mediana
+
+using System;
+
+namespace aula2
+{
+    class Program
+    {
+        static void calcularMedia(double[] numeros)
+        {
+            double soma = 0;
+            for(int i = 0; i < numeros.Length; i++){
+                soma += numeros [i];
+            }
+            double media = soma / numeros.Length;
+            Console.WriteLine("A média dos números é: " + media);
+        }
+        static void Main(string[] args)
+        {
+            double[] numeros = {123, 4234, 6345, 243};
+            calcularMedia(numeros);
+        }
+    }
+}
+
+(Versão aonde o úsuario escolhe os numeros do array)
+using System;
+
+namespace aula2
+{
+    class Program
+    {
+        static void calcularMedia(double[] numeros)
+        {
+            double soma = 0;
+            for(int i = 0; i < numeros.Length; i++){
+                soma += numeros [i];
+            }
+            double media = soma / numeros.Length;
+            Console.WriteLine("A média dos números é: " + media);
+        }
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Quantos números?");
+            int quantidade = Convert.ToInt32(Console.ReadLine());
+            double[] numeros = new double[quantidade];
+            Console.WriteLine("Digite os números:");
+            for(int i = 0; i < quantidade; i++)
+            {
+                numeros[i] = Convert.ToDouble(Console.ReadLine());
+            }
+
+            calcularMedia(numeros);
+        }
+    }
+}
