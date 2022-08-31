@@ -1,0 +1,15 @@
+C:\Users\emili\Documents\Idade\idade\bin\Debug\net6.0\idade.exe
+C:\Users\emili\Documents\Idade\idade\bin\Debug\net6.0\idade.deps.json
+C:\Users\emili\Documents\Idade\idade\bin\Debug\net6.0\idade.runtimeconfig.json
+C:\Users\emili\Documents\Idade\idade\bin\Debug\net6.0\idade.dll
+C:\Users\emili\Documents\Idade\idade\bin\Debug\net6.0\idade.pdb
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.csproj.AssemblyReference.cache
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.AssemblyInfoInputs.cache
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.AssemblyInfo.cs
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.dll
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\refint\idade.dll
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.pdb
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\idade.genruntimeconfig.cache
+C:\Users\emili\Documents\Idade\idade\obj\Debug\net6.0\ref\idade.dll
