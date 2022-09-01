@@ -1,0 +1,19 @@
+Get (read)
+Post (read e update)
+Put (update)
+Delete (delete)
+- Patch (update)
+
+CRUD
+C create
+R read
+U update
+D delete
+
+REST ful
+
+criar 
+ler 
+atualizar
+deletar
+

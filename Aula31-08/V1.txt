@@ -1,0 +1,97 @@
+using System;
+using System.IO;
+
+namespace aula4
+{
+    class Usuario {
+        static int idControl = 0;
+
+        int id;
+        string username;
+        string pwdHash;
+
+        Usuario() {
+            id = 0;
+            username = "";
+            pwdHash = "";
+        }
+
+        public Usuario(string un, string pwd) {
+            id = GenerateId();
+            SetUsername(un);
+            ApplyHash(pwd);
+        }
+        
+        public string GetUsername() {
+            return username;
+        }
+        
+        public void SetUsername(string u){
+            username = u;
+        }
+
+        public string GetHash() {
+            return pwdHash;
+        }
+        
+        public void SetHash(string p){
+            pwdHash = p;
+        }
+
+        public void ApplyHash(string pwd) {
+            //TODO aplicar hash
+            pwdHash = pwd;
+        }
+
+        public int GetId() {
+            return id;
+        }
+
+        static int GenerateId() {
+            ++idControl;
+            return idControl;
+        }
+
+        //TODO hash()
+    }
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Usuario p = new Usuario("Marcelo", "1234");
+            Usuario q = new Usuario("Rafael", "4321");
+            Console.WriteLine($"o id do {p.GetUsername()} eh {p.GetId()} e a hash eh {p.GetHash()}");
+            Console.WriteLine($"o id do {q.GetUsername()} eh {q.GetId()} e a hash eh {q.GetHash()}");
+            return;
+
+            Console.WriteLine("Olá! Bem vindo ao sistema de login");
+            Console.WriteLine("Digite 1 para logar");
+            Console.WriteLine("Digite 2 para cadastrar");
+            Console.WriteLine("Digite 3 para sair");
+            bool sair = false;
+            while(!sair){
+                int opcao = 0;
+                try{
+                    opcao = int.Parse(Console.ReadLine());
+                }
+                catch(Exception e) {
+                    Console.WriteLine("valor invalido, tente novamente");
+                }
+                switch(opcao){
+                    case 1:
+                        //todo logar
+                    break;
+                    case 2:
+                        //todo cadastrar
+                    break;
+                    case 3:
+                        sair = true;
+                    break;
+                    default:
+                        Console.WriteLine("opcao invalida! tente novamente");
+                    break;
+                }
+            }
+        }
+    }
+}
