@@ -1,0 +1,15 @@
+C:\Users\emili\Documents\Dinheiro\convercao\bin\Debug\net6.0\convercao.exe
+C:\Users\emili\Documents\Dinheiro\convercao\bin\Debug\net6.0\convercao.deps.json
+C:\Users\emili\Documents\Dinheiro\convercao\bin\Debug\net6.0\convercao.runtimeconfig.json
+C:\Users\emili\Documents\Dinheiro\convercao\bin\Debug\net6.0\convercao.dll
+C:\Users\emili\Documents\Dinheiro\convercao\bin\Debug\net6.0\convercao.pdb
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.csproj.AssemblyReference.cache
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.AssemblyInfoInputs.cache
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.AssemblyInfo.cs
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.csproj.CoreCompileInputs.cache
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.dll
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\refint\convercao.dll
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.pdb
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\convercao.genruntimeconfig.cache
+C:\Users\emili\Documents\Dinheiro\convercao\obj\Debug\net6.0\ref\convercao.dll
