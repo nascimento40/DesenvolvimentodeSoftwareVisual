@@ -1,0 +1,25 @@
+Aula 5 - Dia: 14/09/2022
+Sistema de biblioteca (ex de tema para o trabalho)
+Logica de programação e orientação a objeto (conteudos da prova)
+
+Model
+View
+Controller
+(MVC)
+
+Locadora (não é e-commerce [tema do trabalho])
+Locação - CRUD incompleto ou não precisa ter/entidade que relaciona as duas
+Cliente - CRUD
+Filme - CRUD 
+Devolução (Possível entidade)
+Trabalho - Mínimo duas estidades com CRUD
+
+WeatherForecastController.cs(exemplo de mundança que o professor fez)
+public string Get()
+        {
+            return ("ola mundo");
+        }
+
+dotnet new webapi --name ? (o conteudo de hoje, sim, é só isso)(cria muita coisa e estou com preguiça de subir o resto)
+dotnet new webapi -minimal -o Trabalho
+
