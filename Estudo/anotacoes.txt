@@ -1,0 +1,9 @@
+static void Main(string[] args) {}
+(Cada programa em C# precisa de um método principal, para servir como ponto de entrada, e essa é a função do Main)
+(De forma simplificada, o Main é aonde informa o seu computador que este é o lugar aonde o programa começa, este é o GO)
+static (imoval, imutável) - o metodo main não vai mudar dinamicamente como a execução do programa
+void (vazio, nada, vacualidade) - Você usa void como o tipo de retorno de um método (ou uma função local) para especificar que tal método não retorna um valor. 
+Você também pode usar void como um tipo referencial para declarar um ponteiro para um tipo desconhecido.
+
+https://learn.microsoft.com/pt-br/dotnet/csharp/fundamentals/program-structure/
+
