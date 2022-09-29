@@ -1,0 +1,16 @@
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\prova.exe
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\prova.deps.json
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\prova.runtimeconfig.json
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\prova.runtimeconfig.dev.json
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\prova.dll
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\ref\prova.dll
+C:\Users\05357384045\Documents\Prova\prova\bin\Debug\net5.0\prova.pdb
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.csproj.AssemblyReference.cache
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.AssemblyInfoInputs.cache
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.AssemblyInfo.cs
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.csproj.CoreCompileInputs.cache
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.dll
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\ref\prova.dll
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.pdb
+C:\Users\05357384045\Documents\Prova\prova\obj\Debug\net5.0\prova.genruntimeconfig.cache
