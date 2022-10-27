@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Programação Visual</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div id="form-cadastro" class="form">
+        <input id="nome" placeholder="Nome" type="text"></input>
+        <input id="cpf" placeholder="CPF" type="number"></input>
+        <input id="cep" onblur="validaCep(this.id)" placeholder="CEP" type="number"></input>
+        <input id="logradouro" placeholder="Logradouro" type="text"></input>
+        <input id="numero" onblur="validaNumero(this.id)" placeholder="Numero" type="number"></input>
+        <input id="nascimento" placeholder="Data de Nascimento" type="date"></input>
+        <input id="email" placeholder="Email" type="email"></input>
+        <input id="password" onblur="validaPassword(this.id)" placeholder="Senha" type="password"></input>
+        <input id="confirm" placeholder="Confirme a Senha" type="password"></input>
+        <button onclick="cadastrar()">Cadastrar</button>
+    </div>
+</body>
+</html>
