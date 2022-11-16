@@ -1,0 +1,8 @@
+manipulação do dom
+pegar elemento por id
+mudar o tipo do input
+
+Dica para prova:
+<select>
+	<option value = "1">Star Wars<\option>
+<\select>
