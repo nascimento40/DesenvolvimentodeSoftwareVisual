@@ -6,3 +6,6 @@ Dica para prova:
 <select>
 	<option value = "1">Star Wars<\option>
 <\select>
+
+DicaProvaEAD:
+Tira print da tela, coloca no paint e salva a imagem e depois abre ela com o Google Lens
