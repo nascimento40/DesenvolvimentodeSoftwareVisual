@@ -1,0 +1,89 @@
+<!--
+	Curitiba, Novembro de 2022
+	Universidade Positivo
+	Desenvolvimento de Software Visual
+	Prof Jean Diogo
+	
+	PROVA 2
+	
+	Analise o codigo abaixo e implemente a funcao "cadastrar" conforme as instrucoes comentadas no interior dela
+	Voce pode adicionar codigo javascript a vontade, mas nao deve mexer no html e no css
+	Por favor avise o professor caso algum dos links informados nao esteja funcionando
+	
+	A prova deve ser submetida no blackboard ate o final da aula
+	Apenas este arquivo precisa ser submetido (mas se quiser submeter mais arquivos favor compactar tudo)
+	
+	A prova eh indivual, presencial e deve ser realizada dentro do horario da aula
+	Voce pode realizar a prova no seu proprio computador ou em um dos computadores da sala
+	Eh permitida consulta a internet e ao material de aula, mas nao eh permitida comunicacao com colegas nem uso de celular
+	Plagio e cola implicarao na anulacao da nota dos alunos e alunas envolvidos
+	Voce pode sair para ir ao banheiro ou a cantina, mas caso algum ou alguma colega ja tenha ido, espere ele ou ela voltar
+	
+	A interpretacao do codigo faz parte da avaliacao, mas caso tenha algum problema levante a mao que o professor ira ateh sua carteira
+	Nao desanime se nao souber fazer tudo, as questoes serao parcialmente pontuadas conforme o que voce conseguir fazer
+	Boa prova!
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Prova 2 de Programação Visual</title>
+		<style>
+			* {
+				font-family: "Verdana", sans-serif;
+			}
+			.form {
+				border-radius: 4px;
+				box-shadow: 0 0 1px 0;
+				margin: 20px;
+				max-width: 400px;
+				padding: 20px 20px 0 20px;
+
+			}
+			.form * {
+				border: 0;
+				border-radius: 4px;
+				font-size: 16px;
+				margin-bottom: 20px;
+				outline: 0;
+				padding: 20px;
+				width: 100%;
+			}
+			.form button {
+				background: #4d4ddd;
+				color: #ffffff;
+				cursor: pointer;
+			}
+			.form button:active {
+				background: #0066cc;
+			}
+			.form img {
+				padding: 0;
+			}
+			.form input {
+				background: #e0e0e0;
+				box-sizing: border-box;
+			}
+		</style>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div style="display:flex;">
+			<div class="form">
+				<input id="nome" placeholder="Nome Completo" type="text" onblur="validaNome(this.id)"/>
+				<input id="nascimento" type="date" onblur="validaData(this.id)"/>
+				<select id="genero" onblur="validaGenero(this.id)">
+					<option value="genero" disabled selected>Gênero</option>
+					<option value="feminino">Feminino</option>
+					<option value="masculino">Masculino</option>
+					<option value="nao-binario">Não-binário</option>
+				</select>
+				<button onclick="cadastrar()">Cadastrar</button>
+			</div>
+			<div id="resposta" class="form"></div>
+		</div>
+	</body>
+</html>
+
