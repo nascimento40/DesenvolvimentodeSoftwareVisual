@@ -1,0 +1,46 @@
+fetch("http...localhost:3000/Pessoa"
+{
+'method' 'post'
+'header'{}
+'body' json.stringily(body)
+}).then(x => x jason()).then(p => {});
+
+
+let body = {
+"nome":document.getElementById("nome").value,
+"nasc":document.getElementById("nasc").value
+}
+
+"yyyy-mm-dd" - ler data
+let x = "2000-01-01"
+let m = new Date(x)
+let ano = m.getFullYear() //2000 - volta o ano
+let mes = m.getMonth() + 1 - volta o mês
+let dia = m.getDate() - volta o dia
+
+ano = 2000
+mes = 1
+dia = 1
+
+let hoje = newDate()
+hoje.
+
+let idade = (anoAtual - ano)
+if(mes > mesAtual)
+	idade --
+else if(mes == mesAtual && dia > diaAtual)
+	idade --
+
+let idade = (h - m).getFullYear()
+
+c#
+new DateTime("string de data")
+
+public DateTime nasc;
+
+["yyyy-mm-dd" - ler data
+let x = "2000-01-01"
+let v = x.split("-")
+v[0]
+
+let idade = 2022 - v[0]]

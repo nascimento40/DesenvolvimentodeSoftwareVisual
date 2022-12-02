@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <input id="nome" type="text"\>
+        <input id="nasc" type="date"\>
+        <button id="sub">Submit</button>
+    </div>
+    <div id="teste"></div>
+    <script>
+        document.getElementById("sub").onclick = () => 
+        {
+            /*let s = document.createElement("span")
+            s.innerHTML = "ola"
+
+            document.getElementById("teste").append(s);*/
+
+            /*document.getElementById("teste").innerHTML += '<span id="meuSpan">ola<span id="s2"></span></span>'
+            document.getElementById("meuSpan").innerHTML += "<br>tchau"
+            document.getElementById("s2").innerHTML += "boa noite"*/
+            //fetch("https://random.dog/woof.json")
+            //fetch("https://api.goprogram.ai/inspiration")
+            let b = {
+                'nome': document.getElementById('nome').value,
+                'nasc': document.getElementById('nasc').value
+            }
+
+            document.getElementById("teste").innerText = JSON.stringify(b);
+            return
+
+            fetch("https://localhost:5001/WeatherForecast",
+            {
+                'method':'POST',
+                //'mode':'cors',
+                'redirect':'follow',
+                'headers':{
+                    'Content-type':'application/json',
+                    'Accept':'application/json'
+                },
+                'body': JSON.stringify(b)
+            })
+            .then(x => x.json())
+            .then(x => {
+                //document.getElementById("teste").innerHTML = x.url
+                /*let im = document.createElement("img")
+                im.src = x.url*/
+                /*let sp = document.createElement("span")
+                sp.innerHTML = x.quote
+                sp.style.fontStyle = "italic"*/
+                //document.getElementById("teste").append(im)
+                //document.getElementById("teste").innerText = x;
+                document.getElementById("teste").innerText = x.nome;
+            })
+        }
+    </script>
+</body>
+</html>
