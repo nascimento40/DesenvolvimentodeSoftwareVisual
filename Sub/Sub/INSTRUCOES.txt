@@ -43,3 +43,11 @@ https://www.geeksforgeeks.org/c-program-to-reverse-words-in-a-given-string-2/
 https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.reverse?view=net-7.0
 https://learn.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-7.0#code-try-1
 https://social.msdn.microsoft.com/Forums/windows/en-US/5723006a-6016-4a2b-b3fd-c9ed4f016eff/reverse-string-without-using-any-c-function?forum=winforms
+
+O professor na recuperação disse que possivelmente iriamos ter que fazer conta usando a data e para isso iriamos fazer no c# e usar o datetime, então recomento que
+procure as provaveis opções de mês,ano, hora e etc nesses sites e opção de pesquisa
+c# datetime
+datetime c# mes
+https://learn.microsoft.com/pt-br/dotnet/api/system.datetime.month?view=net-7.0
+https://learn.microsoft.com/pt-br/dotnet/api/system.datetime?view=net-7.0
+
