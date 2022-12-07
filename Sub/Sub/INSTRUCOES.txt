@@ -29,3 +29,17 @@ com base nesse json a funcao constroi um span para colocar uma mensagem sobre a 
 
 (8) sua segunda tarefa eh completar os TODO presentes nos arquivos "index.html" e "PessoaController.cs"
 
+Coisas que pesquisei em casa
+Pesquisas no Google:
+como escrever um nome ao contrario em c#
+how to spell a name backwards in c#
+reverse works c#
+reverse words c#
+words backwards c# microsoft
+Links:
+https://www.c-sharpcorner.com/UploadFile/c63ec5/reverse-string-in-C-Sharp/
+https://stackoverflow.com/questions/37106790/c-sharp-reversing-names
+https://www.geeksforgeeks.org/c-program-to-reverse-words-in-a-given-string-2/
+https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.reverse?view=net-7.0
+https://learn.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-7.0#code-try-1
+https://social.msdn.microsoft.com/Forums/windows/en-US/5723006a-6016-4a2b-b3fd-c9ed4f016eff/reverse-string-without-using-any-c-function?forum=winforms
