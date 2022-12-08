@@ -1,28 +1,27 @@
 using System;
-using System.IO;
 using System.Collections.Generic;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Mvc;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
 
 namespace Sub
 {
-	class Program
-	{
-		static void Main(string[] args)
-		{
-			var builder = WebApplication.CreateBuilder(args);
-			
-			builder.Services.AddControllers();
-			
-			builder.Services.AddCors(options => options.AddDefaultPolicy(policy => policy.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod()));
-			
-			var app = builder.Build();
-			
-			app.UseCors();
-			
-			app.MapControllers();
+    public class Program
+    {
+        public static void Main(string[] args)
+        {
+            CreateHostBuilder(args).Build().Run();
+        }
 
-			app.Run("http://localhost:3000");
-		}
-	}
+        public static IHostBuilder CreateHostBuilder(string[] args) =>
+            Host.CreateDefaultBuilder(args)
+                .ConfigureWebHostDefaults(webBuilder =>
+                {
+                    webBuilder.UseStartup<Startup>();
+                    //webBuilder.UseUrls("http://localhost:3000");
+                });
+    }
 }

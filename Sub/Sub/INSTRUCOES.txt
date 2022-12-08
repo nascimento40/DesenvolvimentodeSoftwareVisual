@@ -4,50 +4,24 @@ INSTRUCOES
 
 	dotnet new webapi --name Sub
 
-(2) copie o arquivo "Pessoa.cs" para a pasta "Sub"
+(2) copie o arquivo "Pizza.cs" para a pasta "Sub"
 
-(3) copie o arquivo "PessoaController.cs" para a pasta "Controllers" (que fica dentro da pasta "Sub")
+(3) copie o arquivo "PizzaController.cs" para a pasta "Controllers" (que fica dentro da pasta "Sub")
 
 (4) substitua o arquivo "Program.cs" da pasta "Sub" pelo arquivo "Program.cs" aqui presente
+    (se estiver usando a versao minimal, use o "Program.cs.min")
 
 (5) entre pelo terminal na pasta "Sub" e depois digite o comando:
 
-	dotnet watch run
+	dotnet run
 
-(6) abra o arquivo "index.html" no navegador e use o console do navegador para observar caso erros ocorram
+(6) sua tarefa eh completar os "TODO" presentes nos arquivos "index.html" e "PizzaController.cs"
 
-(7) sua primeira tarefa eh estudar o javascript que esta no "index.html" e o c# que esta no arquivo "PessoaController.cs" e entender como o seguinte processo de comunicacao entre front e back:
+(7) verifique a porta que sua aplicacao esta lendo e, se necessario, ajuste o valor da variavel "url" no arquivo "index.html"
 
-no frontend, a funcao "submit" pega os dados do formulario da pessoa e a partir dele eh construido o json da pessoa
-esse json eh enviado via post para o endpoint "/Pessoa" que esta sendo mapeado pelo backend
+CONTEXTO
 
-no backend, o json chega ja como um objeto da classe pessoa
-a funcao que trata o post altera um certo atributo da pessoa e retorna essa pessoa para o frontend
-
-novamente no frontend, no ultimo "then" da funcao fetch, a pessoa modificada retorna ja como um json
-com base nesse json a funcao constroi um span para colocar uma mensagem sobre a pessoa
-
-(8) sua segunda tarefa eh completar os TODO presentes nos arquivos "index.html" e "PessoaController.cs"
-
-Coisas que pesquisei em casa
-Pesquisas no Google:
-como escrever um nome ao contrario em c#
-how to spell a name backwards in c#
-reverse works c#
-reverse words c#
-words backwards c# microsoft
-Links:
-https://www.c-sharpcorner.com/UploadFile/c63ec5/reverse-string-in-C-Sharp/
-https://stackoverflow.com/questions/37106790/c-sharp-reversing-names
-https://www.geeksforgeeks.org/c-program-to-reverse-words-in-a-given-string-2/
-https://learn.microsoft.com/en-us/dotnet/api/system.collections.generic.list-1.reverse?view=net-7.0
-https://learn.microsoft.com/en-us/dotnet/api/system.array.reverse?view=net-7.0#code-try-1
-https://social.msdn.microsoft.com/Forums/windows/en-US/5723006a-6016-4a2b-b3fd-c9ed4f016eff/reverse-string-without-using-any-c-function?forum=winforms
-
-O professor na recuperação disse que possivelmente iriamos ter que fazer conta usando a data e para isso iriamos fazer no c# e usar o datetime, então recomento que
-procure as provaveis opções de mês,ano, hora e etc nesses sites e opção de pesquisa
-c# datetime
-datetime c# mes
-https://learn.microsoft.com/pt-br/dotnet/api/system.datetime.month?view=net-7.0
-https://learn.microsoft.com/pt-br/dotnet/api/system.datetime?view=net-7.0
+Uma pizzaria nao possui servico de entrega
+Para agilizar a vida dos clientes, ela desenvolveu um sistema em que o cliente faz o pedido no site e busca a pizza no balcao
+Ao preencher o form do site o cliente eh informado em quanto tempo sua pizza ficara pronta
 
